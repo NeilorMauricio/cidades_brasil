@@ -3,7 +3,7 @@ $(document).ready(function () {
   const $slider = $('.slider');
   const $nav = $('.nav');
   const winW = $(window).width();
-  const animSpd = 1000; 
+  const animSpd = 750; 
   const distOfLetGo = winW * 0.2;
   let curSlide = 1;
   let animation = false;
@@ -11,7 +11,7 @@ $(document).ready(function () {
   let diff = 0;
 
   
-  let arrCities = ['O uroPreto', 'Rio de J aneiro', 'São           Paulo', 'F lo     ripa', 'C uritiba']; 
+  let arrCities = ['O uroPreto',  'Ri   o de janeiro', 'São           Paulo', 'F lo     ripa', 'C uritiba']; 
   let numOfCities = arrCities.length;
   let arrCitiesDivided = [];
 
